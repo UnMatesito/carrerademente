@@ -1,0 +1,89 @@
+body{
+    background: rgb(79,128,191);
+    background: radial-gradient(circle, rgba(79,128,191,1) 7%, rgba(42,107,192,1) 28%, rgba(26,66,119,1) 88%);
+}
+
+#logo{
+    margin-top: -7px;
+    width: 20rem;
+}
+
+#board div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 150px;
+    background-color: #f1f1f1cb;
+}
+
+#dice {
+    height: 120px; 
+    width: 120px;
+}
+
+#type{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#question1, #question2, #question3{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+#div2{
+    background-color: #f1f1f17a;
+}
+
+.player {
+    z-index: 1;
+    position: relative;
+}
+
+.cell{
+    z-index: 0;
+    position: relative;
+}
+
+.btn-secondary{
+    background-color: #ed1e79 !important;
+    color: white !important;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.confetti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner{
+    background: linear-gradient(to bottom, #a17938 20%, #ffac33 40%, #a17938 64%); 
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+	font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin-top: -380px;
+    margin-bottom: 310px;
+    font-size: 60px !important;
+}
+
+.flip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

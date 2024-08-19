@@ -1,0 +1,34 @@
+body{
+    background: rgb(79,128,191);
+    background: radial-gradient(circle, rgba(79,128,191,1) 7%, rgba(42,107,192,1) 28%, rgba(26,66,119,1) 88%);
+}
+
+#players {
+    list-style-type: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30rem;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.playersTab{
+    height: 20em;
+}
+
+
