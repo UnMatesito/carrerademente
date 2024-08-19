@@ -4,7 +4,9 @@
 
 ---
 
-Bienvenidos al repositorio de **Carrera de Mente** un juego de mesa diseñado en JavaScript con Node.js. El juego se basa en un tablero con 20 posiciones donde 2 o mas jugadores deberan competir contestando preguntas determinadas por un dado para decidir quien es el ganador de la *Carrera de Mente*.
+Bienvenidos al repositorio de **Carrera de Mente** un juego de mesa diseñado en *JavaScript* con *Node.js y Express.js*. El juego se basa en un tablero con 20 posiciones donde 2 o mas jugadores deberan competir contestando preguntas determinadas por un dado para decidir quien es el ganador de la *Carrera de Mente*.
+
+Este Juego fue realizado como proyecto final para la materia Seminario de Lenguajes - Opcion JavaScript de la Universidad Nacional de La Plata
 
 ## Requerimientos
 Para poder jugar este juego, necesitarás:
