@@ -52,6 +52,7 @@ Esto iniciará el servidor Express y nos habilitara a empezar a crear la partida
 
 - Al iniciar la partida por primera vez ocurre un error el array Players
 - El sistema del primer turno funciona a veces incorrectamente (el GET request se ejecuta 2 veces, teniendo que ejecutarse una unica vez **siempre**)
+- El boton de copiar codigo de invitacion solo funciona el localhost
 
 ## Comandos Disponibles
 - `npm start`: Corre el juego en modo producción.
